@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --config no-vite-config.js",
     "preview": "vite preview",
     "android:init": "npx cap init EnvirospaceQuote com.envirospace.quote",
     "android:add": "npx cap add android",
